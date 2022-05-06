@@ -1,4 +1,8 @@
 .idea
+
+#screenshot folder
+screenshots
+
 target/
 pom.xml.tag
 pom.xml.releaseBackup

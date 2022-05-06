@@ -20,24 +20,24 @@ public class TakingScreenshot {
             // Whole screen
             File basic64ScreenshotData = appiumDriver.getScreenshotAs(OutputType.FILE);
             String fileLocation = System.getProperty("user.dir").concat("/screenshots/").concat("HomeScreen.png");
-            FileUtils.copyFile(basic64ScreenshotData,new File(fileLocation));
+            FileUtils.copyFile(basic64ScreenshotData, new File(fileLocation));
 
             // An area
             MobileElement loginFormElem = appiumDriver.findElement(MobileBy.AccessibilityId("Login-screen"));
             File basic64LoginFormData = loginFormElem.getScreenshotAs(OutputType.FILE);
             String loginFormFileLocation = System.getProperty("user.dir").concat("/screenshots/").concat("LoginForm.png");
-            FileUtils.copyFile(basic64LoginFormData,new File(loginFormFileLocation));
+            FileUtils.copyFile(basic64LoginFormData, new File(loginFormFileLocation));
 
             // An element
             MobileElement loginBtnElem = appiumDriver.findElement(MobileBy.AccessibilityId("button-LOGIN"));
             File basic64LoginBtnData = loginBtnElem.getScreenshotAs(OutputType.FILE);
             String loginBtnFileLocation = System.getProperty("user.dir").concat("/screenshots/").concat("LoginBtn.png");
-            FileUtils.copyFile(basic64LoginBtnData,new File(loginBtnFileLocation));
+            FileUtils.copyFile(basic64LoginBtnData, new File(loginBtnFileLocation));
 
-        }catch (Exception e){
+        } catch (Exception e) {
             e.printStackTrace();
-        }finally {
-
+        } finally {
+            appiumDriver.quit();
         }
     }
 }
