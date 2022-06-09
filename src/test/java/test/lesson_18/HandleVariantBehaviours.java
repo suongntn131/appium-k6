@@ -1,11 +1,10 @@
-package test.lession_18;
+package test.lesson_18;
 
 import driver.DriverFactory;
 import driver.Platforms;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.internal.CapabilityHelpers;
-import javafx.scene.input.Dragboard;
 import org.openqa.selenium.Capabilities;
 
 public class HandleVariantBehaviours {

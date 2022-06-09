@@ -1,4 +1,4 @@
-package test.lession_17;
+package test.lesson_17;
 
 import context.Contexts;
 import context.WaitMoreThanOneContext;

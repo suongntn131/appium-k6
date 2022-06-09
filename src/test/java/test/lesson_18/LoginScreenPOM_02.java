@@ -1,13 +1,11 @@
-package test.lession_18;
+package test.lesson_18;
 
 import driver.DriverFactory;
 import driver.Platforms;
 import io.appium.java_client.AppiumDriver;
-import io.appium.java_client.MobileBy;
 import io.appium.java_client.MobileElement;
 import models.components.LoginFormComponent;
 import models.pages.LoginScreen;
-import org.apache.commons.logging.Log;
 
 public class LoginScreenPOM_02 {
     public static void main(String[] args) {
