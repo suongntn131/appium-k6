@@ -6,6 +6,8 @@ import io.appium.java_client.MobileElement;
 import models.components.LoginFormComponent;
 import models.pages.LoginScreen;
 import org.apache.commons.validator.routines.EmailValidator;
+import org.testng.Assert;
+import org.testng.asserts.SoftAssert;
 import test_flows.BaseFlow;
 
 public class LoginFlow extends BaseFlow {
@@ -73,19 +75,23 @@ public class LoginFlow extends BaseFlow {
 
     private void verifyIncorrectEmailStr(LoginFormComponent loginFormCom) {
         String actualInvalidEmailStr = loginFormCom.getInvalidEmailStr();
-        String expectedInvalidEmailStr = "Please enter a valid email address";
+        String expectedInvalidEmailStr = "Please enter a valid email address.";
 
         // Verification
-        System.out.println("actualInvalidEmailStr: " + actualInvalidEmailStr);
-        System.out.println("expectedInvalidEmailStr: " + expectedInvalidEmailStr);
+        SoftAssert softAssert = new SoftAssert();
+        softAssert.assertEquals(actualInvalidEmailStr, expectedInvalidEmailStr, "[ERR] Invalid email format str incorrect");
+        softAssert.assertAll();
     }
 
     private void verifyIncorrectPasswordStr(LoginFormComponent loginFormCom) {
         String actualInvalidPasswordStr = loginFormCom.getInvalidPasswordStr();
-        String expectedInvalidPasswordStr = "Please enter at least 8 characters";
+        String expectedInvalidPasswordStr = "Please enter at least 8 characters.";
 
         // Verification
-        System.out.println("actualInvalidPasswordStr: " + actualInvalidPasswordStr);
-        System.out.println("expectedInvalidPasswordStr: " + expectedInvalidPasswordStr);
+        SoftAssert softAssert = new SoftAssert();
+        softAssert.assertEquals(actualInvalidPasswordStr, expectedInvalidPasswordStr, "[ERR] Invalid email format str incorrect");
+        System.out.println("----------------->> After asserting");
+        softAssert.assertTrue(false, "[ERROR] true != false");
+        softAssert.assertAll();
     }
 }
