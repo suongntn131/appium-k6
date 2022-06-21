@@ -3,23 +3,14 @@ package models.pages;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
 import models.components.BottomNavComponent;
-import models.components.LoginDialogComponent;
 import models.components.LoginFormComponent;
 
-public class LoginScreen {
+public class HomeScreen {
 
     private final AppiumDriver<MobileElement> driver;
 
-    public LoginScreen(AppiumDriver<MobileElement> driver) {
+    public HomeScreen(AppiumDriver<MobileElement> driver) {
         this.driver = driver;
-    }
-
-    public LoginFormComponent loginFormComponent(){
-        return new LoginFormComponent(driver);
-    }
-
-    public LoginDialogComponent loginDialogComponent(){
-        return new LoginDialogComponent(driver);
     }
 
     public BottomNavComponent bottomNavComponent(){

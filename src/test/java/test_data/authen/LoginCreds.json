@@ -1,16 +1,16 @@
 [
   {
-    "email": "";
-    "password": "";
-  }
+    "email": "abc.defksdjkdjsf",
+    "password": "12345678"
+  },
 
   {
-    "email": "";
-    "password": "";
-  }
+    "email": "test@sth.com",
+    "password": "1234567"
+  },
 
   {
-    "email": "";
-    "password": "";
+    "email": "test@sth.com",
+    "password": "12345678"
   }
 ]

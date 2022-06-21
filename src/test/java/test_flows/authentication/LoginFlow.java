@@ -6,7 +6,6 @@ import io.appium.java_client.MobileElement;
 import models.components.LoginFormComponent;
 import models.pages.LoginScreen;
 import org.apache.commons.validator.routines.EmailValidator;
-import org.testng.Assert;
 import org.testng.asserts.SoftAssert;
 import test_flows.BaseFlow;
 
@@ -50,7 +49,7 @@ public class LoginFlow extends BaseFlow {
         LoginFormComponent loginFormCom = loginScreen.loginFormComponent();
 
         if (isEmailValid && isPasswordValid) {
-            verifyCorrectLoginCreds(loginFormCom);
+            verifyCorrectLoginCreds(loginScreen);
         }
 
         if (!isEmailValid) {
@@ -62,15 +61,16 @@ public class LoginFlow extends BaseFlow {
         }
     }
 
-    private void verifyCorrectLoginCreds(LoginFormComponent loginFormCom) {
-        String actualLoginSuccessMesStr = loginFormCom.getLoginSuccessMesStr();
-        String expectedLoginSuccessMesStr = "You are logged in!";
-
-        // Verification
-        System.out.println("actualLoginSuccessMesStr: " + actualLoginSuccessMesStr);
-        System.out.println("expectedLoginSuccessMesStr: " + expectedLoginSuccessMesStr);
-        MobileElement btnOK = appiumDriver.findElement(MobileBy.id("android:id/button1"));
-        btnOK.click();
+    private void verifyCorrectLoginCreds(LoginScreen loginScreen) {
+//        String actualLoginSuccessMesStr = loginFormCom.getLoginSuccessMesStr();
+//        String expectedLoginSuccessMesStr = "You are logged in!";
+//
+//        // Verification
+//        System.out.println("actualLoginSuccessMesStr: " + actualLoginSuccessMesStr);
+//        System.out.println("expectedLoginSuccessMesStr: " + expectedLoginSuccessMesStr);
+//        MobileElement btnOK = appiumDriver.findElement(MobileBy.id("android:id/button1"));
+//        btnOK.click();
+        loginScreen.loginDialogComponent().clickOnOkBtn();
     }
 
     private void verifyIncorrectEmailStr(LoginFormComponent loginFormCom) {

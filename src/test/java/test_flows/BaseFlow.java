@@ -2,16 +2,20 @@ package test_flows;
 
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
-import models.pages.LoginScreen;
+import models.pages.HomeScreen;
 
 public class BaseFlow {
-    private final AppiumDriver<MobileElement> appiumDriver;
+    protected final AppiumDriver<MobileElement> appiumDriver;
 
     public BaseFlow(AppiumDriver<MobileElement> appiumDriver) {
         this.appiumDriver = appiumDriver;
     }
 
     public void goToLoginScreen(){
-        new LoginScreen(appiumDriver).bottomNavComponent().clickOnLoginIcon();
+        new HomeScreen(appiumDriver).bottomNavComponent().clickOnLoginIcon();
+    }
+
+    public void goToFormScreen(){
+        new HomeScreen(appiumDriver).bottomNavComponent().clickOnFormsIcon();
     }
 }
