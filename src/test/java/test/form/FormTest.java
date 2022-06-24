@@ -8,7 +8,7 @@ public class FormTest extends BaseTest {
 
     @Test
     public void testFormInput() {
-        FormFlow formFlow = new FormFlow(appiumDriver);
+        FormFlow formFlow = new FormFlow(getDriver());
         formFlow.goToFormScreen();
         formFlow.fillTheForm();
         formFlow.verifyFormDisplay();

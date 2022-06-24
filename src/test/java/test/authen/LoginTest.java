@@ -10,11 +10,10 @@ import test_flows.authentication.LoginFlow;
 public class LoginTest extends BaseTest {
     @Test(dataProvider = "loginCredData")
     public void testLogin(LoginCredData loginCredData) {
-        LoginFlow loginFlow = new LoginFlow(appiumDriver, loginCredData.getEmail(), loginCredData.getPassword());
+        LoginFlow loginFlow = new LoginFlow(getDriver(), loginCredData.getEmail(), loginCredData.getPassword());
         loginFlow.goToLoginScreen();
         loginFlow.login();
         loginFlow.verifyLogin();
-
     }
 
     @DataProvider
