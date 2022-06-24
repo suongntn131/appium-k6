@@ -52,7 +52,7 @@ public class DriverFactory implements MobileCapabilityTypeEx {
         return  appiumDriver;
     }
 
-    public AppiumDriver<MobileElement> getDriver(Platforms platform, String uuid, String systemPort){
+    public AppiumDriver<MobileElement> getDriver(Platforms platform, String uuid, String systemPort, String platformVersion){
         if (appiumDriver == null) {
             if (platform == null){
                 throw new IllegalArgumentException("Platform cannot  be null, pls provide one of these: " + Arrays.toString(Platforms.values()));
@@ -61,23 +61,28 @@ public class DriverFactory implements MobileCapabilityTypeEx {
             Exception exception = null;
             try {
                 DesiredCapabilities desiredCapabilities = new DesiredCapabilities();
-                desiredCapabilities.setCapability(PLATFORM_NAME,"Android");
-                desiredCapabilities.setCapability(AUTOMATION_NAME,"uiautomator2");
-                desiredCapabilities.setCapability(UDID,uuid);
-                desiredCapabilities.setCapability(APP_PACKAGE,"com.wdiodemoapp");
-                desiredCapabilities.setCapability(APP_ACTIVITY,"com.wdiodemoapp.MainActivity");
-                desiredCapabilities.setCapability(SYSTEM_PORT,systemPort);
+                desiredCapabilities.setCapability(PLATFORM_NAME,platform);
 
                 // Init appium session
 //                URL appiumServer = new URL("http://localhost:4723/wd/hub");
-                URL targetServer = new URL("http://localhost:4444/wd/hub");
+                URL targetServer = new URL("http://192.168.1.60:4444/wd/hub");
 
                 switch (platform){
                     case android:
-                        appiumDriver = new AndroidDriver<MobileElement>(targetServer,desiredCapabilities);
+                        desiredCapabilities.setCapability(AUTOMATION_NAME,"uiautomator2");
+                        desiredCapabilities.setCapability(UDID,uuid);
+                        desiredCapabilities.setCapability(APP_PACKAGE,"com.wdiodemoapp");
+                        desiredCapabilities.setCapability(APP_ACTIVITY,"com.wdiodemoapp.MainActivity");
+                        desiredCapabilities.setCapability(SYSTEM_PORT,Integer.parseInt(systemPort));
+                        appiumDriver = new AndroidDriver<>(targetServer,desiredCapabilities);
                         break;
                     case ios:
-                        appiumDriver = new IOSDriver<MobileElement>(targetServer,desiredCapabilities);
+                        desiredCapabilities.setCapability(AUTOMATION_NAME,"XCUITest");
+                        desiredCapabilities.setCapability(DEVICE_NAME,uuid);
+                        desiredCapabilities.setCapability(PLATFORM_VERSION,platformVersion); // 15.1 not 15.1.2
+                        desiredCapabilities.setCapability(BUNDLE_ID,"org.wdiNativeApp");
+                        desiredCapabilities.setCapability(WDA_LOCAL_PORT,Integer.parseInt(systemPort));
+                        appiumDriver = new IOSDriver<>(targetServer,desiredCapabilities);
                         break;
                 }
             } catch (Exception e){

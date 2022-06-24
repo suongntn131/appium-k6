@@ -2,14 +2,16 @@
 
 <suite name="Regression">
     <test name="Authentication" parallel="tests" thread-count="10">
+        <parameter name="platformName" value="android"></parameter>
         <parameter name="udid" value="R58M45PFJZW"></parameter>
         <parameter name="systemPort" value="8300"></parameter>
         <classes>
             <class name="test.authen.LoginTest" />
-            <class name="test.form.FormTest" />
+<!--            <class name="test.form.FormTest" />-->
         </classes>
     </test>
     <test name="Authentication 2" parallel="tests" thread-count="10">
+        <parameter name="platformName" value="android"></parameter>
         <parameter name="udid" value="R58MC2RHY2A"></parameter>
         <parameter name="systemPort" value="8400"></parameter>
         <classes>
