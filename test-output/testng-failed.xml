@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="10" name="Failed suite [Regression]" parallel="tests">
+  <test thread-count="10" name="3300d3672cca62b9(failed)" parallel="tests">
+    <parameter name="platformVersion" value="15.0"/>
+    <parameter name="udid" value="3300d3672cca62b9"/>
+    <parameter name="platformName" value="android"/>
+    <parameter name="systemPort" value="9203"/>
+    <classes>
+      <class name="test.form.FormTest">
+        <methods>
+          <include name="quitAppiumSession"/>
+          <include name="testFormInput"/>
+          <include name="captureScreenshot"/>
+          <include name="initAppiumSession"/>
+        </methods>
+      </class> <!-- test.form.FormTest -->
+      <class name="test.authen.LoginTest">
+        <methods>
+          <include name="testLogin" invocation-numbers="0"/>
+          <include name="quitAppiumSession"/>
+          <include name="initAppiumSession"/>
+          <include name="captureScreenshot"/>
+        </methods>
+      </class> <!-- test.authen.LoginTest -->
+    </classes>
+  </test> <!-- 3300d3672cca62b9(failed) -->
+  <test thread-count="10" name="G8S1LV05133401MM(failed)" parallel="tests">
+    <parameter name="platformVersion" value="15.0"/>
+    <parameter name="udid" value="G8S1LV05133401MM"/>
+    <parameter name="platformName" value="android"/>
+    <parameter name="systemPort" value="8368"/>
+    <classes>
+      <class name="test.lesson_20.DataProviderExploring">
+        <methods>
+          <include name="testSth" invocation-numbers="0 1 2"/>
+        </methods>
+      </class> <!-- test.lesson_20.DataProviderExploring -->
+    </classes>
+  </test> <!-- G8S1LV05133401MM(failed) -->
+</suite> <!-- Failed suite [Regression] -->

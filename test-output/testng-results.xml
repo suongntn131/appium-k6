@@ -1,0 +1,741 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="2" failed="5" ignored="2" total="18" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Regression" duration-ms="50843" started-at="2022-07-02T11:47:14 ICT" finished-at="2022-07-02T11:48:05 ICT">
+    <groups>
+    </groups>
+    <test name="3300d3672cca62b9" duration-ms="4223" started-at="2022-07-02T11:47:14 ICT" finished-at="2022-07-02T11:47:19 ICT">
+      <class name="test.form.FormTest">
+        <test-method status="FAIL" signature="testFormInput()[pri:0, instance:test.form.FormTest@6dc17b83]" name="testFormInput" duration-ms="2" started-at="2022-07-02T11:47:19 ICT" finished-at="2022-07-02T11:47:19 ICT">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Name is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Name is null
+at java.lang.Enum.valueOf(Unknown Source)
+at driver.Platforms.valueOf(Platforms.java:3)
+at test.BaseTest.getDriver(BaseTest.java:56)
+at test.form.FormTest.testFormInput(FormTest.java:11)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:32)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:467)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFormInput -->
+        <test-method status="FAIL" signature="captureScreenshot(org.testng.ITestResult)[pri:0, instance:test.form.FormTest@6dc17b83]" name="captureScreenshot" is-config="true" duration-ms="1" started-at="2022-07-02T11:47:19 ICT" description="Capture screenshot" finished-at="2022-07-02T11:47:19 ICT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testFormInput status=FAILURE method=FormTest.testFormInput()[pri:0, instance:test.form.FormTest@6dc17b83] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Name is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Name is null
+at java.lang.Enum.valueOf(Unknown Source)
+at driver.Platforms.valueOf(Platforms.java:3)
+at test.BaseTest.captureScreenshot(BaseTest.java:76)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:803)
+at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:772)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:748)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:32)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:467)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshot -->
+      </class> <!-- test.form.FormTest -->
+      <class name="test.authen.LoginTest">
+        <test-method status="PASS" signature="initAppiumSession(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:test.authen.LoginTest@5fdcaa40]" name="initAppiumSession" is-config="true" duration-ms="5" started-at="2022-07-02T11:47:14 ICT" description="Init appium session" finished-at="2022-07-02T11:47:14 ICT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3300d3672cca62b9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9203]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[android]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[15.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initAppiumSession -->
+        <test-method status="FAIL" signature="testLogin(test_data.models.LoginCredData)[pri:0, instance:test.authen.LoginTest@5fdcaa40]" name="testLogin" duration-ms="3715" started-at="2022-07-02T11:47:14 ICT" data-provider="loginCredData" finished-at="2022-07-02T11:47:18 ICT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[LoginCredData{email='abc.defksdjkdjsf', password='12345678'}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Device 3300d3672cca62b9 was not in the list of connected devices
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-MJ9OJ63', ip: '192.168.1.46', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Device 3300d3672cca62b9 was not in the list of connected devices
+    at getResponseForW3CError (C:\Users\Admin\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Users\Admin\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-MJ9OJ63', ip: '192.168.1.46', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: driver.version: AndroidDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Device 3300d3672cca62b9 was not in the list of connected devices
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-MJ9OJ63', ip: '192.168.1.46', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Device 3300d3672cca62b9 was not in the list of connected devices
+    at getResponseForW3CError (C:\Users\Admin\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Users\Admin\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-MJ9OJ63', ip: '192.168.1.46', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: driver.version: AndroidDriver
+at driver.DriverFactory.getDriver(DriverFactory.java:93)
+at test.BaseTest.getDriver(BaseTest.java:56)
+at test.authen.LoginTest.testLogin(LoginTest.java:13)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:32)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:467)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="FAIL" signature="captureScreenshot(org.testng.ITestResult)[pri:0, instance:test.authen.LoginTest@5fdcaa40]" name="captureScreenshot" is-config="true" duration-ms="381" started-at="2022-07-02T11:47:18 ICT" description="Capture screenshot" finished-at="2022-07-02T11:47:18 ICT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLogin status=FAILURE method=LoginTest.testLogin(test_data.models.LoginCredData)[pri:0, instance:test.authen.LoginTest@5fdcaa40] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Device 3300d3672cca62b9 was not in the list of connected devices
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-MJ9OJ63', ip: '192.168.1.46', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Device 3300d3672cca62b9 was not in the list of connected devices
+    at getResponseForW3CError (C:\Users\Admin\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Users\Admin\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-MJ9OJ63', ip: '192.168.1.46', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: driver.version: AndroidDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Device 3300d3672cca62b9 was not in the list of connected devices
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-MJ9OJ63', ip: '192.168.1.46', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Device 3300d3672cca62b9 was not in the list of connected devices
+    at getResponseForW3CError (C:\Users\Admin\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Users\Admin\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-MJ9OJ63', ip: '192.168.1.46', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: driver.version: AndroidDriver
+at driver.DriverFactory.getDriver(DriverFactory.java:93)
+at test.BaseTest.captureScreenshot(BaseTest.java:76)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:803)
+at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:772)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:748)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:32)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:467)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshot -->
+        <test-method status="SKIP" signature="testLogin(test_data.models.LoginCredData)[pri:0, instance:test.authen.LoginTest@5fdcaa40]" name="testLogin" duration-ms="0" started-at="2022-07-02T11:47:19 ICT" data-provider="loginCredData" finished-at="2022-07-02T11:47:19 ICT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[LoginCredData{email='test@sth.com', password='1234567'}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Device 3300d3672cca62b9 was not in the list of connected devices
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-MJ9OJ63', ip: '192.168.1.46', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Device 3300d3672cca62b9 was not in the list of connected devices
+    at getResponseForW3CError (C:\Users\Admin\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Users\Admin\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-MJ9OJ63', ip: '192.168.1.46', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: driver.version: AndroidDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Device 3300d3672cca62b9 was not in the list of connected devices
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-MJ9OJ63', ip: '192.168.1.46', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Device 3300d3672cca62b9 was not in the list of connected devices
+    at getResponseForW3CError (C:\Users\Admin\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Users\Admin\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-MJ9OJ63', ip: '192.168.1.46', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: driver.version: AndroidDriver
+at driver.DriverFactory.getDriver(DriverFactory.java:93)
+at test.BaseTest.captureScreenshot(BaseTest.java:76)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:803)
+at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:772)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:748)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:32)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:467)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="SKIP" signature="captureScreenshot(org.testng.ITestResult)[pri:0, instance:test.authen.LoginTest@5fdcaa40]" name="captureScreenshot" is-config="true" duration-ms="0" started-at="2022-07-02T11:47:19 ICT" description="Capture screenshot" finished-at="2022-07-02T11:47:19 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshot -->
+        <test-method status="SKIP" signature="testLogin(test_data.models.LoginCredData)[pri:0, instance:test.authen.LoginTest@5fdcaa40]" name="testLogin" duration-ms="0" started-at="2022-07-02T11:47:19 ICT" data-provider="loginCredData" finished-at="2022-07-02T11:47:19 ICT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[LoginCredData{email='test@sth.com', password='12345678'}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Device 3300d3672cca62b9 was not in the list of connected devices
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-MJ9OJ63', ip: '192.168.1.46', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Device 3300d3672cca62b9 was not in the list of connected devices
+    at getResponseForW3CError (C:\Users\Admin\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Users\Admin\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-MJ9OJ63', ip: '192.168.1.46', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: driver.version: AndroidDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Device 3300d3672cca62b9 was not in the list of connected devices
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-MJ9OJ63', ip: '192.168.1.46', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Device 3300d3672cca62b9 was not in the list of connected devices
+    at getResponseForW3CError (C:\Users\Admin\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Users\Admin\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-MJ9OJ63', ip: '192.168.1.46', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: driver.version: AndroidDriver
+at driver.DriverFactory.getDriver(DriverFactory.java:93)
+at test.BaseTest.captureScreenshot(BaseTest.java:76)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:803)
+at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:772)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:748)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:32)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:467)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="SKIP" signature="captureScreenshot(org.testng.ITestResult)[pri:0, instance:test.authen.LoginTest@5fdcaa40]" name="captureScreenshot" is-config="true" duration-ms="0" started-at="2022-07-02T11:47:19 ICT" description="Capture screenshot" finished-at="2022-07-02T11:47:19 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshot -->
+        <test-method status="PASS" signature="quitAppiumSession()[pri:0, instance:test.authen.LoginTest@5fdcaa40]" name="quitAppiumSession" is-config="true" duration-ms="0" started-at="2022-07-02T11:47:19 ICT" description="Quit appium session" finished-at="2022-07-02T11:47:19 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitAppiumSession -->
+      </class> <!-- test.authen.LoginTest -->
+      <class name="test.lesson_20.TestNGHook01">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:test.lesson_20.TestNGHook01@1184ab05]" name="beforeSuite" is-config="true" duration-ms="9" started-at="2022-07-02T11:47:14 ICT" finished-at="2022-07-02T11:47:14 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:test.lesson_20.TestNGHook01@1184ab05]" name="afterSuite" is-config="true" duration-ms="1" started-at="2022-07-02T11:48:05 ICT" finished-at="2022-07-02T11:48:05 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- test.lesson_20.TestNGHook01 -->
+      <class name="test.lesson_20.TestNGHook02">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:test.lesson_20.TestNGHook02@3aefe5e5]" name="beforeSuite" is-config="true" duration-ms="1" started-at="2022-07-02T11:47:14 ICT" finished-at="2022-07-02T11:47:14 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:test.lesson_20.TestNGHook02@3aefe5e5]" name="afterSuite" is-config="true" duration-ms="0" started-at="2022-07-02T11:48:05 ICT" finished-at="2022-07-02T11:48:05 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- test.lesson_20.TestNGHook02 -->
+    </test> <!-- 3300d3672cca62b9 -->
+    <test name="G8S1LV05133401MM" duration-ms="50843" started-at="2022-07-02T11:47:14 ICT" finished-at="2022-07-02T11:48:05 ICT">
+      <class name="test.lesson_19.LoginTest">
+        <test-method status="PASS" signature="testLogin(test_data.models.LoginCredData)[pri:0, instance:test.lesson_19.LoginTest@71b1176b]" name="testLogin" duration-ms="26414" started-at="2022-07-02T11:47:14 ICT" data-provider="loginCredData" finished-at="2022-07-02T11:47:41 ICT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[LoginCredData{email='abc.defksdjkdjsf', password='12345678'}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="testLogin(test_data.models.LoginCredData)[pri:0, instance:test.lesson_19.LoginTest@71b1176b]" name="testLogin" duration-ms="11489" started-at="2022-07-02T11:47:41 ICT" data-provider="loginCredData" finished-at="2022-07-02T11:47:52 ICT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[LoginCredData{email='test@sth.com', password='1234567'}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="testLogin(test_data.models.LoginCredData)[pri:0, instance:test.lesson_19.LoginTest@71b1176b]" name="testLogin" duration-ms="12819" started-at="2022-07-02T11:47:52 ICT" data-provider="loginCredData" finished-at="2022-07-02T11:48:05 ICT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[LoginCredData{email='test@sth.com', password='12345678'}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+      </class> <!-- test.lesson_19.LoginTest -->
+      <class name="test.testng.ParameterTest">
+        <test-method status="PASS" signature="testTestNGParams(java.lang.String,java.lang.String)[pri:0, instance:test.testng.ParameterTest@149e0f5d]" name="testTestNGParams" duration-ms="2" started-at="2022-07-02T11:48:05 ICT" finished-at="2022-07-02T11:48:05 ICT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[G8S1LV05133401MM]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8368]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTestNGParams -->
+      </class> <!-- test.testng.ParameterTest -->
+      <class name="test.testng.ParameterTest2">
+        <test-method status="PASS" signature="testTestNGParams(java.lang.String,java.lang.String)[pri:0, instance:test.testng.ParameterTest2@1b1473ab]" name="testTestNGParams" duration-ms="3" started-at="2022-07-02T11:48:05 ICT" finished-at="2022-07-02T11:48:05 ICT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[G8S1LV05133401MM]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8368]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTestNGParams -->
+      </class> <!-- test.testng.ParameterTest2 -->
+      <class name="test.lesson_20.TestNGHook01">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:test.lesson_20.TestNGHook01@1184ab05]" name="beforeTest" is-config="true" duration-ms="0" started-at="2022-07-02T11:47:14 ICT" finished-at="2022-07-02T11:47:14 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:test.lesson_20.TestNGHook01@1184ab05]" name="beforeClass" is-config="true" duration-ms="1" started-at="2022-07-02T11:48:05 ICT" finished-at="2022-07-02T11:48:05 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.lesson_20.TestNGHook01@1184ab05]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2022-07-02T11:48:05 ICT" finished-at="2022-07-02T11:48:05 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testA()[pri:0, instance:test.lesson_20.TestNGHook01@1184ab05]" name="testA" duration-ms="2" started-at="2022-07-02T11:48:05 ICT" finished-at="2022-07-02T11:48:05 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testA -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.lesson_20.TestNGHook01@1184ab05]" name="afterMethod" is-config="true" duration-ms="1" started-at="2022-07-02T11:48:05 ICT" finished-at="2022-07-02T11:48:05 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.lesson_20.TestNGHook01@1184ab05]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2022-07-02T11:48:05 ICT" finished-at="2022-07-02T11:48:05 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testB()[pri:0, instance:test.lesson_20.TestNGHook01@1184ab05]" name="testB" duration-ms="1" started-at="2022-07-02T11:48:05 ICT" finished-at="2022-07-02T11:48:05 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testB -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.lesson_20.TestNGHook01@1184ab05]" name="afterMethod" is-config="true" duration-ms="0" started-at="2022-07-02T11:48:05 ICT" finished-at="2022-07-02T11:48:05 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:test.lesson_20.TestNGHook01@1184ab05]" name="afterClass" is-config="true" duration-ms="1" started-at="2022-07-02T11:48:05 ICT" finished-at="2022-07-02T11:48:05 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:test.lesson_20.TestNGHook01@1184ab05]" name="afterTest" is-config="true" duration-ms="0" started-at="2022-07-02T11:48:05 ICT" finished-at="2022-07-02T11:48:05 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- test.lesson_20.TestNGHook01 -->
+      <class name="test.lesson_20.TestNGHook02">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:test.lesson_20.TestNGHook02@3aefe5e5]" name="beforeTest" is-config="true" duration-ms="1" started-at="2022-07-02T11:47:14 ICT" finished-at="2022-07-02T11:47:14 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:test.lesson_20.TestNGHook02@3aefe5e5]" name="beforeClass" is-config="true" duration-ms="0" started-at="2022-07-02T11:48:05 ICT" finished-at="2022-07-02T11:48:05 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.lesson_20.TestNGHook02@3aefe5e5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2022-07-02T11:48:05 ICT" finished-at="2022-07-02T11:48:05 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testA()[pri:0, instance:test.lesson_20.TestNGHook02@3aefe5e5]" name="testA" duration-ms="2" started-at="2022-07-02T11:48:05 ICT" finished-at="2022-07-02T11:48:05 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testA -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.lesson_20.TestNGHook02@3aefe5e5]" name="afterMethod" is-config="true" duration-ms="0" started-at="2022-07-02T11:48:05 ICT" finished-at="2022-07-02T11:48:05 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.lesson_20.TestNGHook02@3aefe5e5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2022-07-02T11:48:05 ICT" finished-at="2022-07-02T11:48:05 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testB()[pri:0, instance:test.lesson_20.TestNGHook02@3aefe5e5]" name="testB" duration-ms="2" started-at="2022-07-02T11:48:05 ICT" finished-at="2022-07-02T11:48:05 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testB -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.lesson_20.TestNGHook02@3aefe5e5]" name="afterMethod" is-config="true" duration-ms="1" started-at="2022-07-02T11:48:05 ICT" finished-at="2022-07-02T11:48:05 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:test.lesson_20.TestNGHook02@3aefe5e5]" name="afterClass" is-config="true" duration-ms="1" started-at="2022-07-02T11:48:05 ICT" finished-at="2022-07-02T11:48:05 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:test.lesson_20.TestNGHook02@3aefe5e5]" name="afterTest" is-config="true" duration-ms="0" started-at="2022-07-02T11:48:05 ICT" finished-at="2022-07-02T11:48:05 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- test.lesson_20.TestNGHook02 -->
+      <class name="test.lesson_20.DataProviderExploring">
+        <test-method status="FAIL" signature="testSth(java.lang.String)[pri:0, instance:test.lesson_20.DataProviderExploring@48fa0f47]" name="testSth" duration-ms="3" started-at="2022-07-02T11:48:05 ICT" data-provider="getDataSet" finished-at="2022-07-02T11:48:05 ICT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Text 01]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [true] but found [false],
+expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [true] but found [false],
+expected [false] but found [true]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+at test.lesson_20.DataProviderExploring.testSth(DataProviderExploring.java:15)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:32)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:467)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSth -->
+        <test-method status="FAIL" signature="testSth(java.lang.String)[pri:0, instance:test.lesson_20.DataProviderExploring@48fa0f47]" name="testSth" duration-ms="2" started-at="2022-07-02T11:48:05 ICT" data-provider="getDataSet" finished-at="2022-07-02T11:48:05 ICT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Text 02]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [true] but found [false],
+expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [true] but found [false],
+expected [false] but found [true]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+at test.lesson_20.DataProviderExploring.testSth(DataProviderExploring.java:15)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:32)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:467)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSth -->
+        <test-method status="FAIL" signature="testSth(java.lang.String)[pri:0, instance:test.lesson_20.DataProviderExploring@48fa0f47]" name="testSth" duration-ms="2" started-at="2022-07-02T11:48:05 ICT" data-provider="getDataSet" finished-at="2022-07-02T11:48:05 ICT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Text 03]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [true] but found [false],
+expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [true] but found [false],
+expected [false] but found [true]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+at test.lesson_20.DataProviderExploring.testSth(DataProviderExploring.java:15)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:32)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:467)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSth -->
+      </class> <!-- test.lesson_20.DataProviderExploring -->
+    </test> <!-- G8S1LV05133401MM -->
+  </suite> <!-- Regression -->
+</testng-results>
