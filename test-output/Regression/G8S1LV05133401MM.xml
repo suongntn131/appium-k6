@@ -52,17 +52,17 @@ at java.lang.Thread.run(Unknown Source)
 ... Removed 23 stack frames]]>
     </failure>
   </testcase> <!-- @AfterMethod captureScreenshot -->
-  <testcase name="testLogin" time="26.414" classname="test.lesson_19.LoginTest"/>
-  <testcase name="testLogin" time="11.489" classname="test.lesson_19.LoginTest"/>
-  <testcase name="testLogin" time="12.819" classname="test.lesson_19.LoginTest"/>
-  <testcase name="testSth" time="0.003" classname="test.lesson_20.DataProviderExploring">
+  <testcase name="testLogin" time="26.414" classname="learning.lesson_19.LoginTest"/>
+  <testcase name="testLogin" time="11.489" classname="learning.lesson_19.LoginTest"/>
+  <testcase name="testLogin" time="12.819" classname="learning.lesson_19.LoginTest"/>
+  <testcase name="testSth" time="0.003" classname="learning.lesson_20.DataProviderExploring">
     <failure type="java.lang.AssertionError" message="The following asserts failed:
 	expected [true] but found [false],
 	expected [false] but found [true]">
-      <![CDATA[java.lang.AssertionError: The following asserts failed:
+        <![CDATA[java.lang.AssertionError: The following asserts failed:
 expected [true] but found [false],
 expected [false] but found [true]
-at test.lesson_20.DataProviderExploring.testSth(DataProviderExploring.java:15)
+at learning.lesson_20.DataProviderExploring.testSth(DataProviderExploring.java:15)
 at java.util.ArrayList.forEach(Unknown Source)
 at java.util.concurrent.FutureTask.run(Unknown Source)
 at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
@@ -71,14 +71,14 @@ at java.lang.Thread.run(Unknown Source)
 ... Removed 20 stack frames]]>
     </failure>
   </testcase> <!-- testSth -->
-  <testcase name="testSth" time="0.002" classname="test.lesson_20.DataProviderExploring">
+  <testcase name="testSth" time="0.002" classname="learning.lesson_20.DataProviderExploring">
     <failure type="java.lang.AssertionError" message="The following asserts failed:
 	expected [true] but found [false],
 	expected [false] but found [true]">
-      <![CDATA[java.lang.AssertionError: The following asserts failed:
+        <![CDATA[java.lang.AssertionError: The following asserts failed:
 expected [true] but found [false],
 expected [false] but found [true]
-at test.lesson_20.DataProviderExploring.testSth(DataProviderExploring.java:15)
+at learning.lesson_20.DataProviderExploring.testSth(DataProviderExploring.java:15)
 at java.util.ArrayList.forEach(Unknown Source)
 at java.util.concurrent.FutureTask.run(Unknown Source)
 at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
@@ -87,14 +87,14 @@ at java.lang.Thread.run(Unknown Source)
 ... Removed 20 stack frames]]>
     </failure>
   </testcase> <!-- testSth -->
-  <testcase name="testSth" time="0.002" classname="test.lesson_20.DataProviderExploring">
+  <testcase name="testSth" time="0.002" classname="learning.lesson_20.DataProviderExploring">
     <failure type="java.lang.AssertionError" message="The following asserts failed:
 	expected [true] but found [false],
 	expected [false] but found [true]">
-      <![CDATA[java.lang.AssertionError: The following asserts failed:
+        <![CDATA[java.lang.AssertionError: The following asserts failed:
 expected [true] but found [false],
 expected [false] but found [true]
-at test.lesson_20.DataProviderExploring.testSth(DataProviderExploring.java:15)
+at learning.lesson_20.DataProviderExploring.testSth(DataProviderExploring.java:15)
 at java.util.ArrayList.forEach(Unknown Source)
 at java.util.concurrent.FutureTask.run(Unknown Source)
 at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
@@ -103,10 +103,10 @@ at java.lang.Thread.run(Unknown Source)
 ... Removed 20 stack frames]]>
     </failure>
   </testcase> <!-- testSth -->
-  <testcase name="testA" time="0.002" classname="test.lesson_20.TestNGHook01"/>
-  <testcase name="testB" time="0.001" classname="test.lesson_20.TestNGHook01"/>
-  <testcase name="testA" time="0.002" classname="test.lesson_20.TestNGHook02"/>
-  <testcase name="testB" time="0.002" classname="test.lesson_20.TestNGHook02"/>
-  <testcase name="testTestNGParams" time="0.002" classname="test.testng.ParameterTest"/>
-  <testcase name="testTestNGParams" time="0.003" classname="test.testng.ParameterTest2"/>
+  <testcase name="testA" time="0.002" classname="learning.lesson_20.TestNGHook01"/>
+  <testcase name="testB" time="0.001" classname="learning.lesson_20.TestNGHook01"/>
+  <testcase name="testA" time="0.002" classname="learning.lesson_20.TestNGHook02"/>
+  <testcase name="testB" time="0.002" classname="learning.lesson_20.TestNGHook02"/>
+  <testcase name="testTestNGParams" time="0.002" classname="learning.testng.ParameterTest"/>
+  <testcase name="testTestNGParams" time="0.003" classname="learning.testng.ParameterTest2"/>
 </testsuite> <!-- G8S1LV05133401MM -->

@@ -31,11 +31,11 @@
     <parameter name="platformName" value="android"/>
     <parameter name="systemPort" value="8368"/>
     <classes>
-      <class name="test.lesson_20.DataProviderExploring">
+      <class name="learning.lesson_20.DataProviderExploring">
         <methods>
           <include name="testSth" invocation-numbers="0 1 2"/>
         </methods>
-      </class> <!-- test.lesson_20.DataProviderExploring -->
+      </class> <!-- learning.lesson_20.DataProviderExploring -->
     </classes>
   </test> <!-- G8S1LV05133401MM(failed) -->
 </suite> <!-- Failed suite [Regression] -->

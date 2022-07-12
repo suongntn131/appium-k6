@@ -1,4 +1,4 @@
-package test.lesson_20;
+package learning.lesson_20;
 
 import test_data.DataObjectBuilder;
 import test_data.models.LoginCredData;

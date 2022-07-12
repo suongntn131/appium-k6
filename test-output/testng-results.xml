@@ -407,30 +407,30 @@ at java.lang.Thread.run(Unknown Source)
           </reporter-output>
         </test-method> <!-- quitAppiumSession -->
       </class> <!-- test.authen.LoginTest -->
-      <class name="test.lesson_20.TestNGHook01">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:test.lesson_20.TestNGHook01@1184ab05]" name="beforeSuite" is-config="true" duration-ms="9" started-at="2022-07-02T11:47:14 ICT" finished-at="2022-07-02T11:47:14 ICT">
+      <class name="learning.lesson_20.TestNGHook01">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:learning.lesson_20.TestNGHook01@1184ab05]" name="beforeSuite" is-config="true" duration-ms="9" started-at="2022-07-02T11:47:14 ICT" finished-at="2022-07-02T11:47:14 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:test.lesson_20.TestNGHook01@1184ab05]" name="afterSuite" is-config="true" duration-ms="1" started-at="2022-07-02T11:48:05 ICT" finished-at="2022-07-02T11:48:05 ICT">
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:learning.lesson_20.TestNGHook01@1184ab05]" name="afterSuite" is-config="true" duration-ms="1" started-at="2022-07-02T11:48:05 ICT" finished-at="2022-07-02T11:48:05 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
-      </class> <!-- test.lesson_20.TestNGHook01 -->
-      <class name="test.lesson_20.TestNGHook02">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:test.lesson_20.TestNGHook02@3aefe5e5]" name="beforeSuite" is-config="true" duration-ms="1" started-at="2022-07-02T11:47:14 ICT" finished-at="2022-07-02T11:47:14 ICT">
+      </class> <!-- learning.lesson_20.TestNGHook01 -->
+      <class name="learning.lesson_20.TestNGHook02">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:learning.lesson_20.TestNGHook02@3aefe5e5]" name="beforeSuite" is-config="true" duration-ms="1" started-at="2022-07-02T11:47:14 ICT" finished-at="2022-07-02T11:47:14 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:test.lesson_20.TestNGHook02@3aefe5e5]" name="afterSuite" is-config="true" duration-ms="0" started-at="2022-07-02T11:48:05 ICT" finished-at="2022-07-02T11:48:05 ICT">
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:learning.lesson_20.TestNGHook02@3aefe5e5]" name="afterSuite" is-config="true" duration-ms="0" started-at="2022-07-02T11:48:05 ICT" finished-at="2022-07-02T11:48:05 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
-      </class> <!-- test.lesson_20.TestNGHook02 -->
+      </class> <!-- learning.lesson_20.TestNGHook02 -->
     </test> <!-- 3300d3672cca62b9 -->
     <test name="G8S1LV05133401MM" duration-ms="50843" started-at="2022-07-02T11:47:14 ICT" finished-at="2022-07-02T11:48:05 ICT">
-      <class name="test.lesson_19.LoginTest">
-        <test-method status="PASS" signature="testLogin(test_data.models.LoginCredData)[pri:0, instance:test.lesson_19.LoginTest@71b1176b]" name="testLogin" duration-ms="26414" started-at="2022-07-02T11:47:14 ICT" data-provider="loginCredData" finished-at="2022-07-02T11:47:41 ICT">
+      <class name="learning.lesson_19.LoginTest">
+        <test-method status="PASS" signature="testLogin(test_data.models.LoginCredData)[pri:0, instance:learning.lesson_19.LoginTest@71b1176b]" name="testLogin" duration-ms="26414" started-at="2022-07-02T11:47:14 ICT" data-provider="loginCredData" finished-at="2022-07-02T11:47:41 ICT">
           <params>
             <param index="0">
               <value>
@@ -441,7 +441,7 @@ at java.lang.Thread.run(Unknown Source)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogin -->
-        <test-method status="PASS" signature="testLogin(test_data.models.LoginCredData)[pri:0, instance:test.lesson_19.LoginTest@71b1176b]" name="testLogin" duration-ms="11489" started-at="2022-07-02T11:47:41 ICT" data-provider="loginCredData" finished-at="2022-07-02T11:47:52 ICT">
+        <test-method status="PASS" signature="testLogin(test_data.models.LoginCredData)[pri:0, instance:learning.lesson_19.LoginTest@71b1176b]" name="testLogin" duration-ms="11489" started-at="2022-07-02T11:47:41 ICT" data-provider="loginCredData" finished-at="2022-07-02T11:47:52 ICT">
           <params>
             <param index="0">
               <value>
@@ -452,7 +452,7 @@ at java.lang.Thread.run(Unknown Source)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogin -->
-        <test-method status="PASS" signature="testLogin(test_data.models.LoginCredData)[pri:0, instance:test.lesson_19.LoginTest@71b1176b]" name="testLogin" duration-ms="12819" started-at="2022-07-02T11:47:52 ICT" data-provider="loginCredData" finished-at="2022-07-02T11:48:05 ICT">
+        <test-method status="PASS" signature="testLogin(test_data.models.LoginCredData)[pri:0, instance:learning.lesson_19.LoginTest@71b1176b]" name="testLogin" duration-ms="12819" started-at="2022-07-02T11:47:52 ICT" data-provider="loginCredData" finished-at="2022-07-02T11:48:05 ICT">
           <params>
             <param index="0">
               <value>
@@ -463,9 +463,9 @@ at java.lang.Thread.run(Unknown Source)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogin -->
-      </class> <!-- test.lesson_19.LoginTest -->
-      <class name="test.testng.ParameterTest">
-        <test-method status="PASS" signature="testTestNGParams(java.lang.String,java.lang.String)[pri:0, instance:test.testng.ParameterTest@149e0f5d]" name="testTestNGParams" duration-ms="2" started-at="2022-07-02T11:48:05 ICT" finished-at="2022-07-02T11:48:05 ICT">
+      </class> <!-- learning.lesson_19.LoginTest -->
+      <class name="learning.testng.ParameterTest">
+        <test-method status="PASS" signature="testTestNGParams(java.lang.String,java.lang.String)[pri:0, instance:learning.testng.ParameterTest@149e0f5d]" name="testTestNGParams" duration-ms="2" started-at="2022-07-02T11:48:05 ICT" finished-at="2022-07-02T11:48:05 ICT">
           <params>
             <param index="0">
               <value>
@@ -481,9 +481,9 @@ at java.lang.Thread.run(Unknown Source)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testTestNGParams -->
-      </class> <!-- test.testng.ParameterTest -->
-      <class name="test.testng.ParameterTest2">
-        <test-method status="PASS" signature="testTestNGParams(java.lang.String,java.lang.String)[pri:0, instance:test.testng.ParameterTest2@1b1473ab]" name="testTestNGParams" duration-ms="3" started-at="2022-07-02T11:48:05 ICT" finished-at="2022-07-02T11:48:05 ICT">
+      </class> <!-- learning.testng.ParameterTest -->
+      <class name="learning.testng.ParameterTest2">
+        <test-method status="PASS" signature="testTestNGParams(java.lang.String,java.lang.String)[pri:0, instance:learning.testng.ParameterTest2@1b1473ab]" name="testTestNGParams" duration-ms="3" started-at="2022-07-02T11:48:05 ICT" finished-at="2022-07-02T11:48:05 ICT">
           <params>
             <param index="0">
               <value>
@@ -499,93 +499,93 @@ at java.lang.Thread.run(Unknown Source)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testTestNGParams -->
-      </class> <!-- test.testng.ParameterTest2 -->
-      <class name="test.lesson_20.TestNGHook01">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:test.lesson_20.TestNGHook01@1184ab05]" name="beforeTest" is-config="true" duration-ms="0" started-at="2022-07-02T11:47:14 ICT" finished-at="2022-07-02T11:47:14 ICT">
+      </class> <!-- learning.testng.ParameterTest2 -->
+      <class name="learning.lesson_20.TestNGHook01">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:learning.lesson_20.TestNGHook01@1184ab05]" name="beforeTest" is-config="true" duration-ms="0" started-at="2022-07-02T11:47:14 ICT" finished-at="2022-07-02T11:47:14 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:test.lesson_20.TestNGHook01@1184ab05]" name="beforeClass" is-config="true" duration-ms="1" started-at="2022-07-02T11:48:05 ICT" finished-at="2022-07-02T11:48:05 ICT">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:learning.lesson_20.TestNGHook01@1184ab05]" name="beforeClass" is-config="true" duration-ms="1" started-at="2022-07-02T11:48:05 ICT" finished-at="2022-07-02T11:48:05 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.lesson_20.TestNGHook01@1184ab05]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2022-07-02T11:48:05 ICT" finished-at="2022-07-02T11:48:05 ICT">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:learning.lesson_20.TestNGHook01@1184ab05]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2022-07-02T11:48:05 ICT" finished-at="2022-07-02T11:48:05 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testA()[pri:0, instance:test.lesson_20.TestNGHook01@1184ab05]" name="testA" duration-ms="2" started-at="2022-07-02T11:48:05 ICT" finished-at="2022-07-02T11:48:05 ICT">
+        <test-method status="PASS" signature="testA()[pri:0, instance:learning.lesson_20.TestNGHook01@1184ab05]" name="testA" duration-ms="2" started-at="2022-07-02T11:48:05 ICT" finished-at="2022-07-02T11:48:05 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testA -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.lesson_20.TestNGHook01@1184ab05]" name="afterMethod" is-config="true" duration-ms="1" started-at="2022-07-02T11:48:05 ICT" finished-at="2022-07-02T11:48:05 ICT">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:learning.lesson_20.TestNGHook01@1184ab05]" name="afterMethod" is-config="true" duration-ms="1" started-at="2022-07-02T11:48:05 ICT" finished-at="2022-07-02T11:48:05 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.lesson_20.TestNGHook01@1184ab05]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2022-07-02T11:48:05 ICT" finished-at="2022-07-02T11:48:05 ICT">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:learning.lesson_20.TestNGHook01@1184ab05]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2022-07-02T11:48:05 ICT" finished-at="2022-07-02T11:48:05 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testB()[pri:0, instance:test.lesson_20.TestNGHook01@1184ab05]" name="testB" duration-ms="1" started-at="2022-07-02T11:48:05 ICT" finished-at="2022-07-02T11:48:05 ICT">
+        <test-method status="PASS" signature="testB()[pri:0, instance:learning.lesson_20.TestNGHook01@1184ab05]" name="testB" duration-ms="1" started-at="2022-07-02T11:48:05 ICT" finished-at="2022-07-02T11:48:05 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testB -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.lesson_20.TestNGHook01@1184ab05]" name="afterMethod" is-config="true" duration-ms="0" started-at="2022-07-02T11:48:05 ICT" finished-at="2022-07-02T11:48:05 ICT">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:learning.lesson_20.TestNGHook01@1184ab05]" name="afterMethod" is-config="true" duration-ms="0" started-at="2022-07-02T11:48:05 ICT" finished-at="2022-07-02T11:48:05 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:test.lesson_20.TestNGHook01@1184ab05]" name="afterClass" is-config="true" duration-ms="1" started-at="2022-07-02T11:48:05 ICT" finished-at="2022-07-02T11:48:05 ICT">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:learning.lesson_20.TestNGHook01@1184ab05]" name="afterClass" is-config="true" duration-ms="1" started-at="2022-07-02T11:48:05 ICT" finished-at="2022-07-02T11:48:05 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:test.lesson_20.TestNGHook01@1184ab05]" name="afterTest" is-config="true" duration-ms="0" started-at="2022-07-02T11:48:05 ICT" finished-at="2022-07-02T11:48:05 ICT">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:learning.lesson_20.TestNGHook01@1184ab05]" name="afterTest" is-config="true" duration-ms="0" started-at="2022-07-02T11:48:05 ICT" finished-at="2022-07-02T11:48:05 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- test.lesson_20.TestNGHook01 -->
-      <class name="test.lesson_20.TestNGHook02">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:test.lesson_20.TestNGHook02@3aefe5e5]" name="beforeTest" is-config="true" duration-ms="1" started-at="2022-07-02T11:47:14 ICT" finished-at="2022-07-02T11:47:14 ICT">
+      </class> <!-- learning.lesson_20.TestNGHook01 -->
+      <class name="learning.lesson_20.TestNGHook02">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:learning.lesson_20.TestNGHook02@3aefe5e5]" name="beforeTest" is-config="true" duration-ms="1" started-at="2022-07-02T11:47:14 ICT" finished-at="2022-07-02T11:47:14 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:test.lesson_20.TestNGHook02@3aefe5e5]" name="beforeClass" is-config="true" duration-ms="0" started-at="2022-07-02T11:48:05 ICT" finished-at="2022-07-02T11:48:05 ICT">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:learning.lesson_20.TestNGHook02@3aefe5e5]" name="beforeClass" is-config="true" duration-ms="0" started-at="2022-07-02T11:48:05 ICT" finished-at="2022-07-02T11:48:05 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.lesson_20.TestNGHook02@3aefe5e5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2022-07-02T11:48:05 ICT" finished-at="2022-07-02T11:48:05 ICT">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:learning.lesson_20.TestNGHook02@3aefe5e5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2022-07-02T11:48:05 ICT" finished-at="2022-07-02T11:48:05 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testA()[pri:0, instance:test.lesson_20.TestNGHook02@3aefe5e5]" name="testA" duration-ms="2" started-at="2022-07-02T11:48:05 ICT" finished-at="2022-07-02T11:48:05 ICT">
+        <test-method status="PASS" signature="testA()[pri:0, instance:learning.lesson_20.TestNGHook02@3aefe5e5]" name="testA" duration-ms="2" started-at="2022-07-02T11:48:05 ICT" finished-at="2022-07-02T11:48:05 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testA -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.lesson_20.TestNGHook02@3aefe5e5]" name="afterMethod" is-config="true" duration-ms="0" started-at="2022-07-02T11:48:05 ICT" finished-at="2022-07-02T11:48:05 ICT">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:learning.lesson_20.TestNGHook02@3aefe5e5]" name="afterMethod" is-config="true" duration-ms="0" started-at="2022-07-02T11:48:05 ICT" finished-at="2022-07-02T11:48:05 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.lesson_20.TestNGHook02@3aefe5e5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2022-07-02T11:48:05 ICT" finished-at="2022-07-02T11:48:05 ICT">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:learning.lesson_20.TestNGHook02@3aefe5e5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2022-07-02T11:48:05 ICT" finished-at="2022-07-02T11:48:05 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testB()[pri:0, instance:test.lesson_20.TestNGHook02@3aefe5e5]" name="testB" duration-ms="2" started-at="2022-07-02T11:48:05 ICT" finished-at="2022-07-02T11:48:05 ICT">
+        <test-method status="PASS" signature="testB()[pri:0, instance:learning.lesson_20.TestNGHook02@3aefe5e5]" name="testB" duration-ms="2" started-at="2022-07-02T11:48:05 ICT" finished-at="2022-07-02T11:48:05 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testB -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.lesson_20.TestNGHook02@3aefe5e5]" name="afterMethod" is-config="true" duration-ms="1" started-at="2022-07-02T11:48:05 ICT" finished-at="2022-07-02T11:48:05 ICT">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:learning.lesson_20.TestNGHook02@3aefe5e5]" name="afterMethod" is-config="true" duration-ms="1" started-at="2022-07-02T11:48:05 ICT" finished-at="2022-07-02T11:48:05 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:test.lesson_20.TestNGHook02@3aefe5e5]" name="afterClass" is-config="true" duration-ms="1" started-at="2022-07-02T11:48:05 ICT" finished-at="2022-07-02T11:48:05 ICT">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:learning.lesson_20.TestNGHook02@3aefe5e5]" name="afterClass" is-config="true" duration-ms="1" started-at="2022-07-02T11:48:05 ICT" finished-at="2022-07-02T11:48:05 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:test.lesson_20.TestNGHook02@3aefe5e5]" name="afterTest" is-config="true" duration-ms="0" started-at="2022-07-02T11:48:05 ICT" finished-at="2022-07-02T11:48:05 ICT">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:learning.lesson_20.TestNGHook02@3aefe5e5]" name="afterTest" is-config="true" duration-ms="0" started-at="2022-07-02T11:48:05 ICT" finished-at="2022-07-02T11:48:05 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- test.lesson_20.TestNGHook02 -->
-      <class name="test.lesson_20.DataProviderExploring">
-        <test-method status="FAIL" signature="testSth(java.lang.String)[pri:0, instance:test.lesson_20.DataProviderExploring@48fa0f47]" name="testSth" duration-ms="3" started-at="2022-07-02T11:48:05 ICT" data-provider="getDataSet" finished-at="2022-07-02T11:48:05 ICT">
+      </class> <!-- learning.lesson_20.TestNGHook02 -->
+      <class name="learning.lesson_20.DataProviderExploring">
+        <test-method status="FAIL" signature="testSth(java.lang.String)[pri:0, instance:learning.lesson_20.DataProviderExploring@48fa0f47]" name="testSth" duration-ms="3" started-at="2022-07-02T11:48:05 ICT" data-provider="getDataSet" finished-at="2022-07-02T11:48:05 ICT">
           <params>
             <param index="0">
               <value>
@@ -600,12 +600,12 @@ expected [true] but found [false],
 expected [false] but found [true]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: The following asserts failed:
+                <![CDATA[java.lang.AssertionError: The following asserts failed:
 expected [true] but found [false],
 expected [false] but found [true]
 at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
 at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
-at test.lesson_20.DataProviderExploring.testSth(DataProviderExploring.java:15)
+at learning.lesson_20.DataProviderExploring.testSth(DataProviderExploring.java:15)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -635,7 +635,7 @@ at java.lang.Thread.run(Unknown Source)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSth -->
-        <test-method status="FAIL" signature="testSth(java.lang.String)[pri:0, instance:test.lesson_20.DataProviderExploring@48fa0f47]" name="testSth" duration-ms="2" started-at="2022-07-02T11:48:05 ICT" data-provider="getDataSet" finished-at="2022-07-02T11:48:05 ICT">
+        <test-method status="FAIL" signature="testSth(java.lang.String)[pri:0, instance:learning.lesson_20.DataProviderExploring@48fa0f47]" name="testSth" duration-ms="2" started-at="2022-07-02T11:48:05 ICT" data-provider="getDataSet" finished-at="2022-07-02T11:48:05 ICT">
           <params>
             <param index="0">
               <value>
@@ -650,12 +650,12 @@ expected [true] but found [false],
 expected [false] but found [true]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: The following asserts failed:
+                <![CDATA[java.lang.AssertionError: The following asserts failed:
 expected [true] but found [false],
 expected [false] but found [true]
 at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
 at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
-at test.lesson_20.DataProviderExploring.testSth(DataProviderExploring.java:15)
+at learning.lesson_20.DataProviderExploring.testSth(DataProviderExploring.java:15)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -685,7 +685,7 @@ at java.lang.Thread.run(Unknown Source)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSth -->
-        <test-method status="FAIL" signature="testSth(java.lang.String)[pri:0, instance:test.lesson_20.DataProviderExploring@48fa0f47]" name="testSth" duration-ms="2" started-at="2022-07-02T11:48:05 ICT" data-provider="getDataSet" finished-at="2022-07-02T11:48:05 ICT">
+        <test-method status="FAIL" signature="testSth(java.lang.String)[pri:0, instance:learning.lesson_20.DataProviderExploring@48fa0f47]" name="testSth" duration-ms="2" started-at="2022-07-02T11:48:05 ICT" data-provider="getDataSet" finished-at="2022-07-02T11:48:05 ICT">
           <params>
             <param index="0">
               <value>
@@ -700,12 +700,12 @@ expected [true] but found [false],
 expected [false] but found [true]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: The following asserts failed:
+                <![CDATA[java.lang.AssertionError: The following asserts failed:
 expected [true] but found [false],
 expected [false] but found [true]
 at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
 at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
-at test.lesson_20.DataProviderExploring.testSth(DataProviderExploring.java:15)
+at learning.lesson_20.DataProviderExploring.testSth(DataProviderExploring.java:15)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -735,7 +735,7 @@ at java.lang.Thread.run(Unknown Source)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSth -->
-      </class> <!-- test.lesson_20.DataProviderExploring -->
+      </class> <!-- learning.lesson_20.DataProviderExploring -->
     </test> <!-- G8S1LV05133401MM -->
   </suite> <!-- Regression -->
 </testng-results>

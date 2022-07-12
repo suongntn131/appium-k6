@@ -3,13 +3,13 @@
 <suite name="Regression">
     <test name="Authentication" >
         <classes>
-            <class name="test.lesson_20.TestNGHook01" />
+            <class name="learning.lesson_20.TestNGHook01" />
         </classes>
     </test>
 
     <test name="Authentication_" >
         <classes>
-            <class name="test.lesson_20.TestNGHook02" />
+            <class name="learning.lesson_20.TestNGHook02" />
         </classes>
     </test>
 </suite>

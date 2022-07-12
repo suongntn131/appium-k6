@@ -1,11 +1,11 @@
-package test.testng;
+package learning.testng;
 
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import java.util.GregorianCalendar;
 
-public class ParameterTest2 {
+public class ParameterTest {
     @Test
     @Parameters({"udid", "systemPort"})
     public void testTestNGParams(String udid, String systemPort) {
