@@ -47,7 +47,7 @@ public class Main implements MobileCapabilityTypeEx {
 
         // Devices under test
         List<String> iPhoneDeviceList = Arrays.asList("iPhone 12", "iPhone 13");
-        List<String> androidDeviceList = Arrays.asList("3300d3672cca62b9", "G8S1LV05133401MM");
+        List<String> androidDeviceList = Arrays.asList("R58MC2RHY2A", "R58M45PFJZW");
         List<String> deviceList = platformName.equalsIgnoreCase("ios") ? iPhoneDeviceList : androidDeviceList;
 
         // Assign tests classes into deviceList
