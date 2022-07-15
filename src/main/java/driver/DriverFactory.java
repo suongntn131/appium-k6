@@ -65,12 +65,13 @@ public class DriverFactory implements MobileCapabilityTypeEx {
 
                 // Init appium session
 //                URL appiumServer = new URL("http://localhost:4723/wd/hub");
+
                 String hubEnvVar = System.getProperty("hub");
-                String hubULR = hubEnvVar != null ? hubEnvVar : System.getenv("hub");
-                if (hubULR == null) {
-                    throw new IllegalArgumentException("Please provide hub IP via -Dhub");
+                String hubUrl = hubEnvVar != null ? hubEnvVar : System.getenv("hub");
+                if(hubUrl == null) {
+                    throw new IllegalArgumentException("PLease provide hub via -Dhub");
                 }
-                URL targetServer = new URL(hubULR + ":4444/wd/hub");
+                URL targetServer = new URL(hubUrl + ":4444/wd/hub");
 
                 switch (platform){
                     case android:
